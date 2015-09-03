@@ -10,13 +10,10 @@ import numpy as np
 
 
 def load_data():
+    # Just Read first line
     arr = sys.stdin.readline().strip().split(" ")
-    N = int(arr[0])
-    data = np.empty((0,3), dtype=int)
-    for i in range(N):
-        arr = sys.stdin.readline().strip().split('  ')
-        arr = [int(a) for a in arr]
-        data = np.vstack([data, arr]) 
+    # Now read all the table    
+    data = np.genfromtxt(sys.stdin, dtype=int)
     return data
     
 def main():
