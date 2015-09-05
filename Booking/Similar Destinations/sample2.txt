@@ -1,0 +1,10 @@
+2
+london:shopping,museums,theatre,monuments,food
+rome:food,museums,monuments,architecture,shopping
+paris:museums,shopping,food,monuments,architecture
+barcelona:architecture,shopping,beach,food,museums
+madrid:museums,shopping,food,architecture,nightlife
+berlin:museums,shopping,monuments,nightlife,food
+istanbul:shopping,food,museums,monuments,friendly_people
+amsterdam:museums,shopping,nightlife,architecture,cycling
+new_york:shopping,museums,food,theatre,city_trip
